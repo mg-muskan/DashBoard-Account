@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+
+    .user-dashboard-box {
+        width: 750px;
+    }
+
+    .user-dashboard-password-progress > .progress {
+        width: 60%;
+    }
+}
+
+@media (max-width: 994px) {
+
+    
+    .user-dashboard {
+        padding: 20px;
+    }
+    
+    .user-dashboard-outer-image {
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        flex-direction: column;
+        /* margin-bottom: 30px; */
+        justify-content: center;
+    }
+
+    .user-dashboard-outer-image > label {
+        font-size: 20px;
+    }
+
+    .user-dashboard-nav {
+        display: block;
+    }
+
+    .user-dashboard-left {
+        display: none;
+    }
+
+    .user-dashboard-info {
+        display: none;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    .user-dashboard-outer-image > img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .user-dashboard-details > .input-group {
+        flex-wrap: wrap;
+    }
+
+    .user-dashboard-details > .input-group > label {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .user-dashboard-details > .input-group > select,
+    .user-dashboard-details > .input-group > input {
+        width: 100%;
+    }
+
+    .user-dashboard-other > input {
+        width: 96%;
+    }
+
+    .user-dashboard-password-progress > .progress {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    .user-dashboard-row {
+        padding: 0;
+    }
+
+    .user-dashboard-other > input {
+        width: 92%;
+    }
+
+}
